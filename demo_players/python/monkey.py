@@ -2,6 +2,7 @@ import logging
 import os.path
 import pickle
 import sys
+import os
 
 import util
 
@@ -32,6 +33,8 @@ class Monkey(object):
         self._decades = {}
         self._favorite_decade = 0
         self._track_values = {}
+        self._plan = []
+        self._file = None
 
     @classmethod
     def process_input(cls, stream):
@@ -56,6 +59,8 @@ class Monkey(object):
         self._top_albums = util.get_set(stream)
         self._top_artists = util.get_set(stream)
         self._bad_artists = util.get_set(stream)
+        self._file = open("track_values.txt", 'w')
+        self._file.close()
         
     def update(self, stream):
         self._id = stream.readline().strip()
@@ -65,6 +70,10 @@ class Monkey(object):
         self._boost_cooldown = util.get_int(stream)
         self._track_pos = {}
         self.browse_result(sys.stdin)
+        self._file = open("track_values.txt", 'r')
+        file_content = self._file.read()
+        self._metadata, self._track_values, self._plan = file_content.split('%', 2)
+        self._file.close()
         for y in xrange(self._h):
             line = stream.readline().strip()
             for x, square in enumerate(line.split(',')):
@@ -78,32 +87,153 @@ class Monkey(object):
                     self._track_pos[x, y] = square
                     try:
                         metadata = self._metadata[square]
-                        #self._map[x, y] = '+' if self.track_value(metadata) > 0 else '-'
-                        value = self.track_value(metadata)
-                        self._map[x, y] = value
-                        self._track_values[metadata] = value
+                        self._map[x, y] = '+' if self.track_value(metadata) > 0 else '-'
                     except KeyError:
                         self._map[x, y] = '?'
                         
     def action(self):
-        goal = self.get_track_pos(self.find_track())
-
         if self._turn >= 1:
-            if goal[0] > self._pos[0]:
-                print 'E'
-            elif goal[0] < self._pos[0]:
-                print 'W'
-            elif goal[1] < self._pos[1]:
-                print 'N'
+            if len(self._metadata) != len(self._track_pos):
+                self.lookup
             else:
-                print 'S'
+                if(self._capacity > 0):
+                    print self._plan.pop()        
+        self._file = open("track_values.txt", 'w')
+        self._file.write(str(self._metadata) + "%" +str(self._track_values) + "%" + str(self._plan))
+        self._file.close()
+
+    def lookup(self):
+        for pos in self._track_pos:
+            track = self._track_pos[pos]
+            if not track in self._metadata:
+                print track 
+                self._track_values[self._metadata[track]] = self.track_value(self._metadata[track])
+
+
+    """def move(self):
+        if self._capacity > 0:
+            goal = self.get_track_pos(self.find_track())
+        else:
+            goal = self._user
+
+        if goal[0] > self._pos[0]:
+            if self._map[self._pos[0]+1,self._pos[1]] == "" or (self._pos[0]+1,self._pos[1]) == goal:
+                print 'E'
+        elif goal[0] < self._pos[0]:
+            if self._map[self._pos[0]-1,self._pos[1]] == "" or (self._pos[0]-1,self._pos[1]) == goal:
+                print 'W'
+        elif goal[1] < self._pos[1]:
+            if self._map[self._pos[0],self._pos[1]+1] == "" or (self._pos[0],self._pos[1]+1) == goal:
+                print 'N'
+        else:
+            if self._map[self._pos[0],self._pos[1]-1] == "" or (self._pos[0],self._pos[1]-1) == goal:
+                print 'S'"""
+
+    def calc_plan(self, goal):
+        spider = goal
+        while(spider != self._pos):
+            if spider[0] > self._pos[0]:
+                if self._map[spider[0]+1,spider[1]] == "" or self._pos == (spider[0]+1, spider[1]):
+                    self._plan.append('E')
+                else:
+                    north = self.find_distance((spider[0], spider[1]+1), self._pos)
+                    south = self.find_distance((spider[0], spider[1]-1), self._pos)
+                if north < south and (spider[0], spider[1]+1) == "" or (spider[0], spider[1]+1) == self._pos:
+                    self._plan.append('N')
+                elif (spider[0], spider[1]-1) == "" or (spider[0], spider[1]-1) == self._pos:
+                    self._plan.append('S')
+                else:
+                    self._plan = self.go_back(self._plan, spider)
+            elif spider[0] < self._pos[0]:
+                if self._map[spider[0]-1,spider[1]] == "" or self._pos == (spider[0]-1, spider[1]):
+                    self._plan.append('W')
+                else:
+                    north = self.find_distance((spider[0], spider[1]+1), self._pos)
+                    south = self.find_distance((spider[0], spider[1]-1), self._pos)
+                if north < south and (spider[0], spider[1]+1) == "" or (spider[0], spider[1]+1) == self._pos:
+                    self._plan.append('N')
+                elif (spider[0], spider[1]-1) == "" or (spider[0], spider[1]-1) == self._pos:
+                    self._plan.append('S')
+                else:
+                    self._plan = self.go_back(self._plan, spider)
+            elif spider[1] < self._pos[1]:
+                if self._map[spider[0],spider[1]+1] == "" or self._pos == (spider[0], spider[1]+1):
+                    self._plan.append('N')
+                else:
+                    west = self.find_distance((spider[0]-1, spider[1]), self._pos)
+                    east = self.find_distance((spider[0]+1, spider[1]), self._pos)
+                if west < east and (spider[0]-1, spider[1]) == "" or (spider[0]-1, spider[1]) == self._pos:
+                    self._plan.append('W')
+                elif (spider[0]+1, spider[1]) == "" or (spider[0]+1, spider[1]) == self._pos:
+                    self._plan.append('E')
+                else:
+                    self._plan = self.go_back(self._plan, spider)
+            else:
+                if self._map[spider[0],spider[1]-1] == "" or self._pos == (spider[0], spider[1]-1):
+                    self._plan.append('S')
+                else:
+                    west = self.find_distance((spider[0]-1, spider[1]), self._pos)
+                    east = self.find_distance((spider[0]+1, spider[1]), self._pos)
+                if west < east and (spider[0]-1, spider[1]) == "" or (spider[0]-1, spider[1]) == self._pos:
+                    self._plan.append('W')
+                elif (spider[0]+1, spider[1]) == "" or (spider[0]+1, spider[1]) == self._pos:
+                    self._plan.append('E')
+                else:
+                    self._plan = self.go_back(self._plan, spider)
+    
+    def go_back(self, plan, spider):
+        direction = plan.pop()
+        if direction == 'E':
+            spider = (spider[0]-1, spider[1])
+            north = self.find_distance((spider[0], spider[1]+1), self._pos)
+            south = self.find_distance((spider[0], spider[1]-1), self._pos)
+            if north < south and (spider[0], spider[1]+1) == "" or (spider[0], spider[1]+1) == self._pos:
+                return plan.append('N')
+            elif (spider[0], spider[1]-1) == "" or (spider[0], spider[1]-1) == self._pos:
+                return plan.append('S')
+            else:
+                self.go_back(plan, spider)
+        elif direction == 'W':
+            spider = (spider[0]+1, spider[1])
+            north = self.find_distance((spider[0], spider[1]+1), self._pos)
+            south = self.find_distance((spider[0], spider[1]-1), self._pos)
+            if north < south and (spider[0], spider[1]+1) == "" or (spider[0], spider[1]+1) == self._pos:
+                return plan.append('N')
+            elif (spider[0], spider[1]-1) == "" or (spider[0], spider[1]-1) == self._pos:
+                return plan.append('S')
+            else:
+                self.go_back(plan, spider)
+        elif direction == 'N':
+            spider = (spider[0], spider[1]-1)
+            west = self.find_distance((spider[0]-1, spider[1]), self._pos)
+            east = self.find_distance((spider[0]+1, spider[1]), self._pos)
+            if west < east and (spider[0]-1, spider[1]) == "" or (spider[0]-1, spider[1]) == self._pos:
+                return plan.append('W')
+            elif (spider[0]+1, spider[1]) == "" or (spider[0]+1, spider[1]) == self._pos:
+                return plan.append('E')
+            else:
+                self.go_back(plan, spider)
+        else:
+            spider = (spider[0], spider[1]+1)
+            west = self.find_distance((spider[0]-1, spider[1]), self._pos)
+            east = self.find_distance((spider[0]+1, spider[1]), self._pos)
+            if west < east and (spider[0]-1, spider[1]) == "" or (spider[0]-1, spider[1]) == self._pos:
+                return plan.append('W')
+            elif (spider[0]+1, spider[1]) == "" or (spider[0]+1, spider[1]) == self._pos:
+                return plan.append('E')
+            else:
+                self.go_back(plan, spider)
 
     def find_track(self):
         best_track = None
         best_score = -1000
         for track in self._track_values:
             current = self._track_values[track]
-            value = current/find_distance(track)
+            for pos, metadata in self._track_pos.iteritems():
+                if metadata == track:
+                    track_pos = pos
+                    break
+            value = current/find_distance(track_pos, self._pos)
             if best_score < value:
                 best_score = value
                 best_track = track
@@ -114,15 +244,8 @@ class Monkey(object):
             if metadata == track:
                 return pos
 
-    def find_distance(self, track):
-        for pos, metadata in self._track_pos.iteritems():
-            if metadata == track:
-                track_pos = pos
-                break
-        return math.fabs(self._pos[0] - pos[0]) + math.fabs(self._pos[1] - pos[1])
-
-    def find_user(self):
-        pass
+    def find_distance(self, start, end):
+        return math.fabs(start[0] - end[0]) + math.fabs(start[1] - end[1])
 
     def track_value(self, metadata):
         tier = self.calc_tier(metadata)
@@ -199,7 +322,6 @@ class Monkey(object):
 
 if __name__ == '__main__':
     monkey = Monkey.process_input(sys.stdin)
-
     monkey.action()
     monkey.save()
     sys.stdout.flush()
