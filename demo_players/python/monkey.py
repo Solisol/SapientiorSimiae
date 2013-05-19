@@ -34,7 +34,9 @@ class Monkey(object):
         self._favorite_decade = 0
         self._track_values = {}
         self._plan = []
-        self._file = None
+        self._metadata_file = None
+        self._values_file = None
+        self._plan_file = None
 
     @classmethod
     def process_input(cls, stream):
@@ -59,8 +61,13 @@ class Monkey(object):
         self._top_albums = util.get_set(stream)
         self._top_artists = util.get_set(stream)
         self._bad_artists = util.get_set(stream)
-        self._file = open("track_values.txt", 'w')
-        self._file.close()
+        self._plan_file = open("plan.txt", 'w')
+        self._metadata_file = open("meta.txt", 'w')
+        self._values_file = open("values.txt", 'w')
+        self._plan_file.close()
+        self._metadata_file.close()
+        self._values_file.close()
+
         
     def update(self, stream):
         self._id = stream.readline().strip()
@@ -70,10 +77,16 @@ class Monkey(object):
         self._boost_cooldown = util.get_int(stream)
         self._track_pos = {}
         self.browse_result(sys.stdin)
-        self._file = open("track_values.txt", 'r')
-        file_content = self._file.read()
-        self._metadata, self._track_values, self._plan = file_content.split('%', 2)
-        self._file.close()
+        self._metadata_file = open("meta.txt", 'r')
+        self._metadata = self._metadata_file.read()
+        self._metadata_file.close()
+        self._plan_file = open("plan.txt", 'r')
+        self._plan = self._plan_file.read()
+        self._plan_file.close()        
+        self._values_file = open("values.txt", 'r')
+        self._track_values = self._values_file.read()
+        self._values_file.close()
+
         for y in xrange(self._h):
             line = stream.readline().strip()
             for x, square in enumerate(line.split(',')):
@@ -85,29 +98,43 @@ class Monkey(object):
                     self._user = (x, y)
                 elif square.startswith(TRACK_URI_HEADER):
                     self._track_pos[x, y] = square
-                    try:
-                        metadata = self._metadata[square]
-                        self._map[x, y] = '+' if self.track_value(metadata) > 0 else '-'
+                    try:            
+                        logging.debug('Meta: %s', str(self._metadata))
+
+                        if len(self._metadata) > 0:
+                            metadata = self._metadata[square]
+                            self._map[x, y] = '+' if self.track_value(metadata) > 0 else '-'
                     except KeyError:
                         self._map[x, y] = '?'
                         
     def action(self):
+        if(len(self._plan) == 0):
+            logging.debug("create plan")
+            self.calc_plan(self.get_track_pos(self.find_track()))
+            logging.debug("plan: %s", str(self._plan))
         if self._turn >= 1:
             if len(self._metadata) != len(self._track_pos):
+                logging.debug("Lookup")
                 self.lookup
             else:
                 if(self._capacity > 0):
                     print self._plan.pop()        
-        self._file = open("track_values.txt", 'w')
-        self._file.write(str(self._metadata) + "%" +str(self._track_values) + "%" + str(self._plan))
-        self._file.close()
+        self._plan_file = open("plan.txt", 'w')
+        self._metadata_file = open("meta.txt", 'w')
+        self._values_file = open("values.txt", 'w')
+        self._plan_file.write(str(self._plan))
+        self._metadata_file.write(str(self._metadata))
+        self._values.write(str(self._track_values))
+        self._plan_file.close()
+        self._metadata_file.close()
+        self._values_file.close()
 
     def lookup(self):
         for pos in self._track_pos:
             track = self._track_pos[pos]
             if not track in self._metadata:
-                print track 
-                self._track_values[self._metadata[track]] = self.track_value(self._metadata[track])
+                logging.debug('track %s', track)
+                print track                 
 
 
     """def move(self):
@@ -305,6 +332,8 @@ class Monkey(object):
             logging.debug('[%d] Browsed track: %s', self._turn, track)
             uri, metadata = track.split(',', 1)
             self._metadata[uri] = metadata
+            self._track_values[self._metadata[uri]] = self.track_value(self._metadata[uri])
+
         
     def save(self):
         with open(self.save_path(), 'wb') as f:
