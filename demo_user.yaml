@@ -1,0 +1,2137 @@
+---
+:toplists:
+  :top_tracks:
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Condemnation
+    artist: Depeche Mode
+    album: Songs Of Faith And Devotion
+    year: 1993
+    uri: spotify:track:5H85hOp2oMlhMh9JlkdJP2
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Enola Gay - 2003 - Remaster
+    artist: Orchestral Manoeuvres In The Dark
+    album: Organisation
+    year: 2003
+    uri: spotify:track:3NYCaxkggl0Hh8vQptSUvV
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: The Fog Rose High
+    artist: Craft Spells
+    album: Idle Labor
+    year: 2011
+    uri: spotify:track:3NwaVr6RJg2LPBcJ1Ysl1O
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Cars
+    artist: Gary Numan
+    album: Premier Hits
+    year: 1981
+    uri: spotify:track:3CKLPDN1AIOYa7QPpy6oDH
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Tainted Love
+    artist: Soft Cell
+    album: Tainted Love / Where Did Our Love Go
+    year: 2009
+    uri: spotify:track:5Du6gEDduLCB9FIm9xIE4w
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: You Surround Me
+    artist: Erasure
+    album: Wild!
+    year: 1989
+    uri: spotify:track:1s6ZF9JIrfwmJhqjJAvJRc
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Something New
+    artist: Girls Aloud
+    album: Something New
+    year: 2012
+    uri: spotify:track:0GqRSiO3OF89bNwe9V8HYi
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Guilty Partner
+    artist: New Order
+    album: Technique [Collector's Edition]
+    year: 2008
+    uri: spotify:track:0gksEnBiPqADMHtLdwgvue
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: The New Stone Age - 2003 Digital Remaster
+    artist: Orchestral Manoeuvres In The Dark
+    album: Architecture And Morality
+    year: 2003
+    uri: spotify:track:4P9BeQkwwcWIuioP8YzeQD
+  - !ruby/object:MonkeyMusic::Metadata::Track
+    name: Don't Go
+    artist: Yazoo
+    album: Upstairs At Eric’s
+    year: 1982
+    uri: spotify:track:7Lzj8nFU3U9WOnFLAjFQ8n
+  :top_albums:
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Delta Machine
+    artist: Depeche Mode
+    year: 2013
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Architecture And Morality
+    artist: Orchestral Manoeuvres In The Dark
+    year: 2003
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Replicas
+    artist: Tubeway Army
+    year: 1979
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Vienna
+    artist: Ultravox
+    year: 2008
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Hits The Very Best Of Erasure
+    artist: Erasure
+    year: 2003
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Tainted Love / Where Did Our Love Go
+    artist: Soft Cell
+    year: 2009
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: The Best Of New Order
+    artist: New Order
+    year: 1994
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Witching Hour
+    artist: Ladytron
+    year: 2007
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Nightdrive With You
+    artist: Anoraak
+    year: 2008
+  - !ruby/object:MonkeyMusic::Metadata::Album
+    name: Boxed
+    artist: Eurythmics
+    year: 2005
+  :top_artists:
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Depeche Mode
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Orchestral Manoeuvres In The Dark
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: The Human League
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: New Order
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: The Postal Service
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Kraftwerk
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Gary Numan
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: MGMT
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: M83
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Duran Duran
+  :disliked_artists:
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Misfits
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: The Ramones
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Bad Religion
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: The Clash
+  - !ruby/object:MonkeyMusic::Metadata::Artist
+    name: Sex Pistols
+:recommendations:
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Condemnation
+  artist: Depeche Mode
+  album: Songs Of Faith And Devotion
+  year: 1993
+  uri: spotify:track:5H85hOp2oMlhMh9JlkdJP2
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Enola Gay - 2003 - Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Organisation
+  year: 2003
+  uri: spotify:track:3NYCaxkggl0Hh8vQptSUvV
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Fog Rose High
+  artist: Craft Spells
+  album: Idle Labor
+  year: 2011
+  uri: spotify:track:3NwaVr6RJg2LPBcJ1Ysl1O
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Cars
+  artist: Gary Numan
+  album: Premier Hits
+  year: 1981
+  uri: spotify:track:3CKLPDN1AIOYa7QPpy6oDH
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Tainted Love
+  artist: Soft Cell
+  album: Tainted Love / Where Did Our Love Go
+  year: 2009
+  uri: spotify:track:5Du6gEDduLCB9FIm9xIE4w
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: You Surround Me
+  artist: Erasure
+  album: Wild!
+  year: 1989
+  uri: spotify:track:1s6ZF9JIrfwmJhqjJAvJRc
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Something New
+  artist: Girls Aloud
+  album: Something New
+  year: 2012
+  uri: spotify:track:0GqRSiO3OF89bNwe9V8HYi
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Guilty Partner
+  artist: New Order
+  album: Technique [Collector's Edition]
+  year: 2008
+  uri: spotify:track:0gksEnBiPqADMHtLdwgvue
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The New Stone Age - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:4P9BeQkwwcWIuioP8YzeQD
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Don't Go
+  artist: Yazoo
+  album: Upstairs At Eric’s
+  year: 1982
+  uri: spotify:track:7Lzj8nFU3U9WOnFLAjFQ8n
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Welcome To My World
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:4CARtDIJS87fOmWb1RxLKK
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Angel
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:24nDMmzJlHcDfF8iSXWFnA
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Heaven
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1bgVQ6LgCqGR3FhsOcM5Jx
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Secret To The End
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:62nmAEHbcpxxwnwAlb1Z7a
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: My Little Universe
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1ciLBf4Gzrbgj66sqfMegO
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Slow
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:7p2KrJyMLprzUiYsIAPQFG
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Broken
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1Hm9pX5iwwS7jJLLPad9yJ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Child Inside
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:64ZErTt9RyifRACEGNyFDn
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Soft Touch/Raw Nerve
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:4FiOSWit6wdaYY6dDGHexv
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Should Be Higher
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:3sqQ4ocD4M9fsvbHrr1Z2M
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The New Stone Age - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:4P9BeQkwwcWIuioP8YzeQD
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: She's Leaving - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:3qAEEfC57OI4SCuj7Zk5va
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Souvenir - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:4i4QN9Zs5s7OZRRLIYHMmP
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sealand - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:0F0mS09ruZO2zWaEbl6hGQ
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Joan Of Arc - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:15RDSwmEEcG0LKhDnzLj7x
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Joan Of Arc (Maid Of Orleans) - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:5WeMMlylGCVGc0ChHSysJA
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Architecture And Morality - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:2wt2ncc9cEsJqKwLo4eTDm
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Georgia - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:5VtqYOQrtrBoaZKMaY0HcK
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Beginning And The End - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:6LK02wa4H5KqXKjA3kBlsZ
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Extended Souvenir - 2003 Digital Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: Architecture And Morality
+  year: 2003
+  uri: spotify:track:3R14PSng7wtMo81cNG67Q6
+  tier: 3
+  value: 64
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Me! I Disconnect From You
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:1ARZpuJ5KjxvmsFU4NryQH
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Are 'friends' Electric?
+  artist: Gary Numan
+  album: Replicas
+  year: 1979
+  uri: spotify:track:5vdSjaab1avSxtblX02Wyz
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Machman
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:1YhCHQWOukLp29rbUq8cCX
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Praying To The Aliens
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:4QC0ag32gByv3x2pIrDEwL
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Down In The Park
+  artist: Gary Numan
+  album: Replicas
+  year: 1979
+  uri: spotify:track:7x5HBwqCGrQj3dkwD6Fbj5
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: You Are In My Vision
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:3tjvNb8ZfH1Mmbr9ys3pdq
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Replicas
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:3qVB1E1CVJYh3J0dL1AT6e
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: It Must Have Been Years
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:4r1dZ3HFwircgyXB6VKtgS
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: When The Machines Rock
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:2Vsy7ExI2mxIz4cNQKsxRa
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I Nearly Married A Human
+  artist: Tubeway Army
+  album: Replicas
+  year: 1979
+  uri: spotify:track:1ngS1pVIUQcMImN5KInl1U
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Astradyne - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:5gg7Zn2UCPmQkHrwKohD0x
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: New Europeans - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:6nIZfBuPEJQSWcNjaSJh7J
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Private Lives - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:2vvD3cG7Uvnf4PtMHye0Al
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Passing Strangers - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:0fykckmlgKC6T7tmF1AWuk
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sleepwalk - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:55RRgdCP1JsKdUudocGQaf
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Mr X - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:0BpHWoxBO4vqehtdWMthQa
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Western Promise - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:0fgby4p4e0ht7E4Z62MhFm
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Vienna - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:7AmdLtDBBMHWTvneMLm8Nj
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: All Stood Still - 2008 - Remaster
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:08zNmGwhoEvJVgGwGTPIKP
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sleepwalk (Early Version) [2008 - Remaster]
+  artist: Ultravox
+  album: Vienna
+  year: 2008
+  uri: spotify:track:617yqenyZRz1VuDCUju1Gx
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Oh L'Amour
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:1TuJc293ljt05YUIWnnZoF
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sometimes
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:0f4FdMaOUjxGBZ4djEAgE3
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Victim Of Love - Remix
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:1Fp0IYahAYrCREZtpyWTB0
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Ship Of Fools
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:0W0KFn4c38Riz2noi2CbxC
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Chains Of Love - Remix
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:0DRTeS4GPjd99T9Vd16zUf
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: A Little Respect
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:2WmC4RGB4bDAkN81j4RIwP
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Stop!
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:7sYM7MIlJJQZH0IiQcJ122
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Blue Savannah
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:1poXIbjCh9xYMYii8IWVbN
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Chorus
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:7lWTki9QAISM5IwroQRBRj
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Love To Hate You
+  artist: Erasure
+  album: Hits The Very Best Of Erasure
+  year: 2003
+  uri: spotify:track:5qjiNJemV61fFwz7FKznjn
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Tainted Love
+  artist: Soft Cell
+  album: Tainted Love / Where Did Our Love Go
+  year: 2009
+  uri: spotify:track:5Du6gEDduLCB9FIm9xIE4w
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Where Did Our Love Go? - Original / 7" Single Version
+  artist: Soft Cell
+  album: Tainted Love / Where Did Our Love Go
+  year: 2009
+  uri: spotify:track:5hAjR6JYJSS0dy9LRwjICn
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: True Faith - '94
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:01jBLs7IZQzPt3dVdn5rDa
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Bizarre Love Triangle '94
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:0NvJy5gPR591Qh2z22EAak
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: '1963'
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:5w0ZPQd35HxLKq4l6iCCnB
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Regret
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:0r3GwbbvVfYB7kCpbXm8Ba
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Fine Time
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:3sT8Ed2Dw1JRG9PbqEF1Jw
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Perfect Kiss
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:60xGwhjbRfQjDVuFXeemB1
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Shellshock
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:3HI1yqFW7yhSkNXhtBTwly
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Thieves Like Us
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:0kQTkXqjtWSPCM2D14cGq3
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Vanishing Point
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:5PO9hh3767mKoLBIPOYUhw
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Run 2
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:7L8z4moYTHAHLXkmPTWHZJ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: High Rise
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:6EGkX8CIdNokNiNAmJGlw1
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Destroy Everything You Touch
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:4ljUx357rAJxqKnO5x209j
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: International Dateline
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:0qSuM39nSWwqPYrRPKA021
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Soft Power
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:5jobT5lR4qFwNPcggJEjdG
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: CMYK
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:4ZaRxeMcMSWV3nzWCh0ISO
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: AMTV
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:1kXYypFMce54qZVd0wG7le
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sugar
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:3bMQHtzstPZL36O0DfiHk1
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Fighting In Build Up Areas
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:0xhUa9FMztr7tdcRVJXzIK
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Last One Standing
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:6l8RcxJAMFzflVODplcJcf
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Weekend
+  artist: Ladytron
+  album: Witching Hour
+  year: 2007
+  uri: spotify:track:1XhaSJEkSPzXgUOWYKBoTV
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Nightdrive With You
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:2We1WL1oyXJtTmrAfjDe58
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Never Ending Romance Disaster
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:0PXV9ltUX7up14k37oPuAN
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Endless Summer
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:41xRt6L4fs3CgGu31GA7KT
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sunday Night Fever
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:38l6ec2A0IQxdQp0tMtJie
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Midnight Stars
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:3mUdiU1CEoaAQoQIBkHJtc
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Waiting for Your Phone Call
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:2id516aQDb0Be1bAbJ8AU6
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Teenage Color (Anoraak Remix)
+  artist: College
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:3DjBDQs8ebkxMBo2V8V3SH
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Nightdrive With You (Adeyhawke Remix)
+  artist: Anoraak
+  album: Nightdrive With You
+  year: 2008
+  uri: spotify:track:5LCTP8QawTk2Olk2UM8Yqn
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: English Summer
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:5yhpFZ600lXbpAZsA02xS5
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Belinda
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:16dUcrSbvd4U2V7xkr3ATH
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Take Me To Your Heart
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:6zckRwDvLYvaS2qco5vntx
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: She's Invisible Now
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:04rIfULxhv2Lt95glPmCFQ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Your Time Will Come
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:621LJKNkHButyYxEYX0Kvv
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Caveman Head
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:5eZJsNeFgS4jXo452275o3
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Never Gonna Cry Again
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:5qNsQPcPN8VBi38QwWb5Hh
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: All The Young (People Of Today)
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:2SlC2rhaTE5Ny14fwY1069
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sing-Sing
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:2j3enTujhVsIOV1oiJbMMP
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Revenge
+  artist: Eurythmics
+  album: Boxed
+  year: 2005
+  uri: spotify:track:5wkwIaPT49HsI4fhOiPT8u
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Enjoy the Silence - Single Version;2006 - Remaster
+  artist: Depeche Mode
+  album: The Best Of Depeche Mode - Volume One
+  year: 2006
+  uri: spotify:track:2oZGpVkUrvh7uDOgXwBliN
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Heaven
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1bgVQ6LgCqGR3FhsOcM5Jx
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Welcome To My World
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:4CARtDIJS87fOmWb1RxLKK
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Soothe My Soul
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:2AxI7waLrZSY9KkL3D2huk
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Angel
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:24nDMmzJlHcDfF8iSXWFnA
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Personal Jesus - Single Version;2006 Digital Remaster
+  artist: Depeche Mode
+  album: The Best Of Depeche Mode - Volume One
+  year: 2006
+  uri: spotify:track:601h6t4AYzjENLTGjHDbhw
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Secret To The End
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:62nmAEHbcpxxwnwAlb1Z7a
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Just Can't Get Enough - Single Version;2006 Digital Remaster
+  artist: Depeche Mode
+  album: The Best Of Depeche Mode - Volume One
+  year: 2006
+  uri: spotify:track:2FpyKkCFIfqmp6eQx4Rn1V
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Broken
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1Hm9pX5iwwS7jJLLPad9yJ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: My Little Universe
+  artist: Depeche Mode
+  album: Delta Machine
+  year: 2013
+  uri: spotify:track:1ciLBf4Gzrbgj66sqfMegO
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: If You Leave
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 2003
+  uri: spotify:track:6VzfdkKU7J6ideJPwVJnAN
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Enola Gay - 2003 - Remaster
+  artist: Orchestral Manoeuvres In The Dark
+  album: ! 'Messages: Greatest Hits'
+  year: 2008
+  uri: spotify:track:7tEDqanTZ8NWxV7zzqth3m
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Electricity
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:3vy2QK19RCnS4Egaq9fGhy
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Enola Gay
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:3WIg3fd3W8I5HU8g3Y6P0k
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sailing On The Seven Seas
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:7bljdWZ5t9VqfBbGFjwZ98
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Maid Of Orleans
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:1nnxUoTcEaWd6mHfD0Ukdw
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Souvenir
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:1H6dcVdpMiMIydKdykY6W0
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Walking On The Milky Way
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:5rN6eummWzwLTQxXZcyeCY
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Pandora's Box
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:0HKZ3bXq9IU33QS2vMNJ4V
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: So In Love
+  artist: Orchestral Manoeuvres In The Dark
+  album: The OMD Singles
+  year: 1998
+  uri: spotify:track:0NX9bRl4d6SHR0hWIIie5N
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Don't You Want Me - 2002 - Remaster
+  artist: The Human League
+  album: The Very Best Of The Human League
+  year: 2003
+  uri: spotify:track:5lmYpa6EaVAKAlwxMf7q5c
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Human
+  artist: The Human League
+  album: The Best Of
+  year: 1998
+  uri: spotify:track:7DsEbqp3kiDuTBwgmtdRpz
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Together In Electric Dreams - 2003 - Remaster
+  artist: The Human League
+  album: The Very Best Of The Human League
+  year: 2003
+  uri: spotify:track:1hVAlfoZDcfCV0SjNPWfLQ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Don't You Want Me
+  artist: The Human League
+  album: Celebrate Gay Pride
+  year: 2010
+  uri: spotify:track:7h4fe4teWz7mc4EZVLE0bl
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: (Keep Feeling) Fascination
+  artist: The Human League
+  album: Countdown To The New Year
+  year: 2010
+  uri: spotify:track:5gHZapv1Sb4AV3JHYyM3a0
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Don't You Want Me - Special Extended Dance Mix
+  artist: The Human League
+  album: so80s (So Eighties) - Pres. By Blank & Jones
+  year: 2010
+  uri: spotify:track:3KRSol6uUsTTV1eMrps9MI
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: (Keep Feeling) Fascination - 2003 - Remaster
+  artist: The Human League
+  album: The Very Best Of The Human League
+  year: 2003
+  uri: spotify:track:26VPSrPYX6Ks5OL3sHQEJY
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Love Action (I Believe in Love) - 2002 - Remaster
+  artist: The Human League
+  album: The Very Best Of The Human League
+  year: 2003
+  uri: spotify:track:7t2DtwDaxiuZDulbXsWrnO
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Mirror Man - 2003 - Remaster
+  artist: The Human League
+  album: The Very Best Of The Human League
+  year: 2003
+  uri: spotify:track:3pI8laGp6QKWVfPfuQIhy3
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Love Action (I Believe in Love)
+  artist: The Human League
+  album: The Best Of
+  year: 1998
+  uri: spotify:track:7ttwrfe807K63aXv3VSKU1
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Bizarre Love Triangle
+  artist: New Order
+  album: Brotherhood [Collector's Edition]
+  year: 2008
+  uri: spotify:track:6wVViUl2xSRoDK2T7dMZbR
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Blue Monday
+  artist: New Order
+  album: Substance
+  year: 1987
+  uri: spotify:track:6tzeMSH4TRGBTzdNvbF5hr
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Blue Monday [88]
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:31MOjWj3CT3dCQsMV2b8Wu
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Age Of Consent
+  artist: New Order
+  album: Power Corruption & Lies [Collector's Edition]
+  year: 2008
+  uri: spotify:track:1iKCbLGTa0uNJ3AZhfoFOL
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: True Faith - '94
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:01jBLs7IZQzPt3dVdn5rDa
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I'll Stay With You
+  artist: New Order
+  album: Lost Sirens
+  year: 2013
+  uri: spotify:track:6MpyaUgutthEieLdLtMmVr
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Bizarre Love Triangle '94
+  artist: New Order
+  album: The Best Of New Order
+  year: 1994
+  uri: spotify:track:0NvJy5gPR591Qh2z22EAak
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Ceremony
+  artist: New Order
+  album: Substance
+  year: 1987
+  uri: spotify:track:3SBFG67CSynjdeyETVAsRF
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Temptation
+  artist: New Order
+  album: Substance
+  year: 1987
+  uri: spotify:track:58IihaOsYb2riCPEVabDol
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Temptation [7" Version]
+  artist: New Order
+  album: Movement [Collector's Edition]
+  year: 2008
+  uri: spotify:track:6aydUK6llaiRoKQyQTDNPY
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Such Great Heights
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:3iDK8BAaBUatPR84gdfa9g
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The District Sleeps Alone Tonight
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:5Bf5C7RkyXTqE1h3Q8KZJ7
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Nothing Better
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:6ZHc4hKjDdUdzk2DgFyvMQ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sleepin In
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:0LEsGGRUrZZhLPFoxeioHr
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: A Tattered Line of String
+  artist: The Postal Service
+  album: Give Up (Deluxe 10th Anniversary Edition)
+  year: 2013
+  uri: spotify:track:64ZutGB9OXDUDho6bcttqb
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Brand New Colony
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:4PxCWMPfDLqFMl1i9IX04W
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Clark Gable
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:3kGBuxGlnQrSozuO1Z9dps
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: We Will Become Silhouettes
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:53hXLQsByJC4B3UCNcmh0E
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Recycled Air
+  artist: The Postal Service
+  album: Give Up
+  year: 2003
+  uri: spotify:track:2iAP4oTt3NiUZCztU4Q8Gu
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The District Sleeps Alone Tonight (Remastered)
+  artist: The Postal Service
+  album: Give Up (Deluxe 10th Anniversary Edition)
+  year: 2013
+  uri: spotify:track:0NktjP45rBAkuXeCRGalj3
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Model - 2004 Digital Remaster
+  artist: Kraftwerk
+  album: ! 'Playlist: Electro'
+  year: 2008
+  uri: spotify:track:4R8yORS2HYbviDdE2Jmkad
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Robots - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: The Man Machine - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:5eqZWYQ5tbIehx00NeKXz7
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Autobahn - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: Autobahn - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:31uidLEHAcF8Cw1cX1VCS8
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Radioactivity - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: Radio-Activity - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:3kwql90R2gmkK12R8uGHCs
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Model - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: The Man Machine - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:1FL9DHDSED6lxNMDJUJQvB
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Computer Love - 2009 - Remaster
+  artist: Kraftwerk
+  album: Computer World - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:5BXBi5pLeJhblMVH2ltjpl
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Tour De France - 2009 - Remaster
+  artist: Kraftwerk
+  album: Tour De France - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:5uNlgK7FEg6r9BGy12P9Sx
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Europe Endless - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: Trans Europe Express - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:5jEfJiugp5E2E2kxQbhRcQ
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Man Machine - 2009 Digital Remaster
+  artist: Kraftwerk
+  album: The Man Machine - 2009 Digital Remaster
+  year: 2009
+  uri: spotify:track:4rbt9xJMIYwjTyMUYSvEL2
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Robots
+  artist: Kraftwerk
+  album: The Mix (2009 Digital Remaster)
+  year: 2009
+  uri: spotify:track:2Dx4OYlS0zhjSm0z43midb
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Cars
+  artist: Gary Numan
+  album: Premier Hits
+  year: 1981
+  uri: spotify:track:3CKLPDN1AIOYa7QPpy6oDH
+  tier: -1
+  value: -4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Are 'friends' Electric?
+  artist: Gary Numan
+  album: Replicas
+  year: 1979
+  uri: spotify:track:5vdSjaab1avSxtblX02Wyz
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Down In The Park
+  artist: Gary Numan
+  album: Replicas
+  year: 1979
+  uri: spotify:track:7x5HBwqCGrQj3dkwD6Fbj5
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Metal
+  artist: Gary Numan
+  album: The Pleasure Principle
+  year: 1979
+  uri: spotify:track:2gsY0pB4cJOVX32K3qOZgB
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: M.e.
+  artist: Gary Numan
+  album: The Pleasure Principle
+  year: 1979
+  uri: spotify:track:3OiBc6E43P6Y5LoqNbbMKf
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Big Noise Transmission (Tim Burgess Remix) - Tim Burgess Remix
+  artist: Gary Numan
+  album: Dead Moon Falling
+  year: 2013
+  uri: spotify:track:4BZME9a6m2q3amBBxYpdcW
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Cars (Remastered 2009)
+  artist: Gary Numan
+  album: The Pleasure Principle (Expanded Edition)
+  year: 2009
+  uri: spotify:track:0FHs04UuTgcj1bAWfxbrFw
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Music For Chameleons
+  artist: Gary Numan
+  album: I Assassin
+  year: 1982
+  uri: spotify:track:4fqRCykZ9uVe4PNSjWIR2f
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Dead Sun Rising (Sonoio Remix) - Sonoio Remix
+  artist: Gary Numan
+  album: Dead Moon Falling
+  year: 2013
+  uri: spotify:track:5t8sVFvTOpR8rl8u4dcFcW
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: We Are The Lost (Gazelle Twin Remix) - Gazelle Twin Remix
+  artist: Gary Numan
+  album: Dead Moon Falling
+  year: 2013
+  uri: spotify:track:66p5HEkdMgsObsBv5Ddq3j
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Kids
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:1jJci4qxiYcOHhQR247rEU
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Electric Feel
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:3FtYbEfBqAlGO46NUDQSAt
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Time To Pretend
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:4iG2gAwKXsOcijVaVXzRPW
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Weekend Wars
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:19K3lUMJmOdeuOBTrbLm19
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Electric Feel - Justice Remix
+  artist: MGMT
+  album: Electric Feel
+  year: 2008
+  uri: spotify:track:2eGHyarZyRvUgFI4d3G8GN
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Pieces of What
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:6wxDu7ISgm5nppPMea4W7D
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Youth
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:5nv854ey1k43KaZ0kHmE4Z
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Congratulations
+  artist: MGMT
+  album: Congratulations
+  year: 2010
+  uri: spotify:track:6kblAEj0T0312fv5QWsXzo
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Of Moons Birds & Monsters
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:0w8dULoVhTuC8x8m8PKwX7
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Handshake
+  artist: MGMT
+  album: Oracular Spectacular
+  year: 2007
+  uri: spotify:track:7d4coyGabEbHZ5tRpTbQT5
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Midnight City
+  artist: M83
+  album: Hurry Up We're Dreaming
+  year: 2011
+  uri: spotify:track:4kO7mrAPfqIrsKwUOK5BFx
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: We Own The Sky
+  artist: M83
+  album: Saturdays = Youth
+  year: 2008
+  uri: spotify:track:1I4EczxGBcPR3J3KeyqFJP
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Oblivion (feat. Susanne Sundfør)
+  artist: M83
+  album: Oblivion (feat. Susanne Sundfør)
+  year: 2013
+  uri: spotify:track:66fKIbn90iaQZ0jEuurozt
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Jack's Dream
+  artist: M83
+  album: Oblivion - Original Motion Picture Soundtrack
+  year: 2013
+  uri: spotify:track:2OsVwe7SubQyge9LJFTh0Y
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Kim & Jessie
+  artist: M83
+  album: Saturdays = Youth
+  year: 2008
+  uri: spotify:track:5pCTXoSYslXKP2D21e3ZJK
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Waking Up
+  artist: M83
+  album: Oblivion - Original Motion Picture Soundtrack
+  year: 2013
+  uri: spotify:track:7fco9ocFesu9I09AMmpWkW
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Midnight City [Eric Prydz Private Remix] - Eric Prydz Private Remix
+  artist: M83
+  album: Midnight City [Eric Prydz Private Remix]
+  year: 2012
+  uri: spotify:track:4IkgcBeRd6R8MJgdYWg4te
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: StarWaves
+  artist: M83
+  album: Oblivion - Original Motion Picture Soundtrack
+  year: 2013
+  uri: spotify:track:6qO6qwKZ5v2X23rPdwtMVv
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Tech 49
+  artist: M83
+  album: Oblivion - Original Motion Picture Soundtrack
+  year: 2013
+  uri: spotify:track:67TjQxwD1073on0kKeDXGN
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Reunion
+  artist: M83
+  album: Hurry Up We're Dreaming
+  year: 2011
+  uri: spotify:track:4dNCg774LzE2kmtbMOLdP7
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Hungry Like the Wolf
+  artist: Duran Duran
+  album: Decade
+  year: 1989
+  uri: spotify:track:5pIaAkHJ928V2LGCz79FgQ
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Rio - 2009 - Remaster
+  artist: Duran Duran
+  album: Rio - Collector's Edition
+  year: 2009
+  uri: spotify:track:43eBgYRTmu5BJnCJDBU5Hb
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: A View to a Kill
+  artist: Duran Duran
+  album: Greatest
+  year: 1998
+  uri: spotify:track:3O9zeBmAi5JRBMSpIQGx2v
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Come Undone
+  artist: Duran Duran
+  album: Duran Duran
+  year: 1993
+  uri: spotify:track:0yfNXxlyXdmP0ue1iJijx1
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Ordinary World
+  artist: Duran Duran
+  album: Duran Duran
+  year: 1993
+  uri: spotify:track:0wokCRaKD0zPNhMRXAgVsr
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Wild Boys
+  artist: Duran Duran
+  album: Greatest
+  year: 1998
+  uri: spotify:track:23M7cQkNJLiddeubvVgaQl
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Girls on Film
+  artist: Duran Duran
+  album: Duran Duran
+  year: 1993
+  uri: spotify:track:5KE4iIOeucoLMnkF6NEwKM
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Notorious
+  artist: Duran Duran
+  album: Notorious
+  year: 1986
+  uri: spotify:track:1stJclD9IGUbxtUnl8CzG3
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Reflex
+  artist: Duran Duran
+  album: Greatest
+  year: 1998
+  uri: spotify:track:0OsWMTxDjtpmJjX43113oq
+  tier: 1
+  value: 4
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Save A Prayer - 2009 Digital Remaster
+  artist: Duran Duran
+  album: Rio - Collector's Edition
+  year: 2009
+  uri: spotify:track:1ff8lsrJ2kuZuofMw81EQo
+  tier: 2
+  value: 16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Last Caress
+  artist: Misfits
+  album: Collection 2
+  year: 1995
+  uri: spotify:track:0S8LgLoseDB6W2HWd1ym6P
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Where Eagles Dare
+  artist: Misfits
+  album: Collection
+  year: 1986
+  uri: spotify:track:5LgiqEgpK54OfXC6947wbU
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Hybrid Moments
+  artist: Misfits
+  album: Static Age
+  year: 1997
+  uri: spotify:track:3gN4UFoOnRHlMl3K4kU5zG
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Die Die My Darling - Fox Studio 1983
+  artist: Misfits
+  album: Collection
+  year: 1986
+  uri: spotify:track:4Rme8TxEaNV09wp64AWd2y
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Attitude - 1995 Digital Remaster
+  artist: Misfits
+  album: Collection 2
+  year: 1995
+  uri: spotify:track:0PTP53h7PvqEMeGyGClkOk
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Saturday Night
+  artist: Misfits
+  album: Famous Monsters
+  year: 1999
+  uri: spotify:track:3jXptpf8Z3aU9O1Bj6YCl0
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Scream
+  artist: Misfits
+  album: Famous Monsters
+  year: 1999
+  uri: spotify:track:2uqQXl3CWniLE0Uhfb7izu
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: She
+  artist: Misfits
+  album: Collection
+  year: 1986
+  uri: spotify:track:38T3oJ4ykhLtoHFjhpjOoL
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Dig Up Her Bones
+  artist: Misfits
+  album: American Psycho
+  year: 1997
+  uri: spotify:track:16MPZDpM5JTtIBs3pOMSWx
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: We Are 138 - 1995 Digital Remaster
+  artist: Misfits
+  album: Collection 2
+  year: 1995
+  uri: spotify:track:3TQ4GxL3oghmLVpUD1oKmb
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Pet Semetary
+  artist: The Ramones
+  album: Brain Drain
+  year: 1989
+  uri: spotify:track:07b5vArZtW08PuEqCw61Ei
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Poison Heart
+  artist: The Ramones
+  album: Mondo Bizarro
+  year: 1992
+  uri: spotify:track:6yXm3xUj0fcN4dGwBAl9qM
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I Don't Want To Grow Up
+  artist: The Ramones
+  album: Adios Amigos
+  year: 1995
+  uri: spotify:track:1mJ7yK70zjY1VCaRP04ot4
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I Believe In Miracles
+  artist: The Ramones
+  album: Brain Drain
+  year: 1989
+  uri: spotify:track:6YYGoARcDRYdJu9ezMPzUx
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Spiderman
+  artist: The Ramones
+  album: The Chrysalis Years Anthology
+  year: 2002
+  uri: spotify:track:2JcUB7LyS4MDI5fvSWU6se
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: She Talks to Rainbows
+  artist: The Ramones
+  album: Adios Amigos
+  year: 1995
+  uri: spotify:track:0GVcm9IeiuWWOQk3yXI7yx
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Have You Ever Seen The Rain
+  artist: The Ramones
+  album: Acid Eaters
+  year: 1993
+  uri: spotify:track:4Ri7GhJiAHy9dCYnxxWuzM
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Merry Christmas (I Don't Want to Fight Tonight)
+  artist: The Ramones
+  album: Brain Drain
+  year: 1989
+  uri: spotify:track:6HA6r647BX7lOIDzQ3PBb9
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Rock And Roll High School - Live
+  artist: The Ramones
+  album: All the Best
+  year: 2012
+  uri: spotify:track:5KAII1Bt2SgySRfPByKgcJ
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Kkk Took My Baby Away - Live
+  artist: The Ramones
+  album: Loco Live
+  year: 1991
+  uri: spotify:track:29KP3ieVXuw7rahzuK422u
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: 21st Century
+  artist: Bad Religion
+  album: Against The Grain
+  year: 2005
+  uri: spotify:track:2Qno5n2LmLePUp2NihXQ1q
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Fuck You
+  artist: Bad Religion
+  album: True North
+  year: 2013
+  uri: spotify:track:5VQg5YHgCAjJTIBtEZHacQ
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Los Angeles Is Burning
+  artist: Bad Religion
+  album: The Empire Strikes First
+  year: 2004
+  uri: spotify:track:27KrzUfX8fHDEYyvmZdrqa
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: True North
+  artist: Bad Religion
+  album: True North
+  year: 2013
+  uri: spotify:track:4hU0WnRH1e3jx2kd2OnwSH
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: American Jesus
+  artist: Bad Religion
+  album: Recipe For Hate
+  year: 1990
+  uri: spotify:track:3qriuhIxVQXmdHRIIzP4Fe
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Punk Rock Song
+  artist: Bad Religion
+  album: The Gray Race
+  year: 1996
+  uri: spotify:track:3cAeRRvExh8FwzWPQqMhsS
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: You
+  artist: Bad Religion
+  album: Punk-O-Rama 3
+  year: 1998
+  uri: spotify:track:2taLSL36n5j5BxOqBAILMN
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I Want to Conquer the World
+  artist: Bad Religion
+  album: No Control
+  year: 2004
+  uri: spotify:track:5E4MtBoFdkuNTEqYC23TSH
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Past is Dead
+  artist: Bad Religion
+  album: True North
+  year: 2013
+  uri: spotify:track:0yC8t1Rd1RbscJAZI4n8aD
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Sorrow
+  artist: Bad Religion
+  album: The Process Of Belief
+  year: 2002
+  uri: spotify:track:2ccdGN0u41iaveyQeae9Iy
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: London Calling
+  artist: The Clash
+  album: Clash On Broadway
+  year: 1997
+  uri: spotify:track:4LzsPH7Z8GqxeiAIUYKswd
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Should I Stay or Should I Go
+  artist: The Clash
+  album: Combat Rock
+  year: 1982
+  uri: spotify:track:5oVd20ddRqp5yenSA0E6u1
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Rock the Casbah
+  artist: The Clash
+  album: The Essential Clash
+  year: 2010
+  uri: spotify:track:5vzW6FDzBtnGGnf4uLwLe5
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: I Fought the Law
+  artist: The Clash
+  album: The Essential Clash
+  year: 2010
+  uri: spotify:track:19Ze27TdtFYssgeGCStFIC
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Should I Stay Or Should I Go
+  artist: The Clash
+  album: The Essential Clash
+  year: 2001
+  uri: spotify:track:7EwcNyYIMehlWfjk0yprbj
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Rock The Casbah
+  artist: The Clash
+  album: The Essential Clash
+  year: 2001
+  uri: spotify:track:6w1YiN1EjTVTZfjHJ8iFfw
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Bankrobber
+  artist: The Clash
+  album: The Story Of The Clash Volume 1
+  year: 1988
+  uri: spotify:track:326OKIhvo9ZJBcjGah2e1E
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: The Guns of Brixton
+  artist: The Clash
+  album: The Essential Clash
+  year: 2010
+  uri: spotify:track:7CaiFy9kev8lXNanEa0kO1
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Train in Vain
+  artist: The Clash
+  album: The Essential Clash
+  year: 2010
+  uri: spotify:track:3fwTbn0TzYE57fXjIcvvGT
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: White Riot
+  artist: The Clash
+  album: The Clash (UK Version)
+  year: 1977
+  uri: spotify:track:7CIPRuchST3qQ1K1QIKZuC
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: God Save The Queen
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:2mHchPRtQWet3iIS3jANr1
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Anarchy In the UK
+  artist: Sex Pistols
+  album: The Sex Pistols
+  year: 2009
+  uri: spotify:track:6jx7pKjpXKuQdXXPI3H8qY
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Anarchy In The UK
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:5moTxUGPZXgGmosl4rIELm
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Pretty Vacant
+  artist: Sex Pistols
+  album: Personal Effects
+  year: 1999
+  uri: spotify:track:2jfy5umLwAO22PIaXjJWPu
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: My Way
+  artist: Sex Pistols
+  album: ! 'Agents Of Anarchy - File 2: Submission'
+  year: 2009
+  uri: spotify:track:3Lx7TcHWXlXdwxkxxZMETj
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Holidays In The Sun
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:4e3TIXJcX3oQJnLup57I0r
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Bodies
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:4kU7cIlf4FDrWrs99AcaWS
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: God Save the Queen - Live
+  artist: Sex Pistols
+  album: Filthy Lucre - Live
+  year: 1996
+  uri: spotify:track:2H3jDABHGWblEaR5rtY5tH
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: No Feelings
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:5Pl46yccvPXXcIiXps3qHl
+  tier: -2
+  value: -16
+- !ruby/object:MonkeyMusic::Metadata::Track
+  name: Problems
+  artist: Sex Pistols
+  album: Never Mind The Bollocks Here’s The Sex Pistols
+  year: 2012
+  uri: spotify:track:5dI4YIBXUmat0Kp6N1SjuV
+  tier: -2
+  value: -16
